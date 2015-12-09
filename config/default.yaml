@@ -48,7 +48,7 @@ email:
 
 slack:
   channel:
-    name: channel-name
+    name: '#channel-name'
     uri: https://hooks.slack.com/services/34J2G4G43/I32Y4I2Y4/43kh423kj4hk2h42h3k2343
   event:
     up:        true

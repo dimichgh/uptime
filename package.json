@@ -19,7 +19,7 @@
     "semver": "1.1.0",
     "socket.io": "0.9.14",
     "webpagetest": "0.2.0",
-    "wreck": "^7.0.0"
+    "wreck": "^6.3.0"
   },
   "devDependencies": {
     "mocha": "1.7.x",

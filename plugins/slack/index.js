@@ -60,13 +60,13 @@ exports.initWebApp = function(options) {
           default:
               message += '(unknown event)';
       }
-      
+
       Wreck.post(config.channel.uri, {
           payload: JSON.stringify({
               text: message,
               channel: config.channel.name}),
           timeout: 1000
-      }, function (err, response) {
+      }, function (err, res) {
           if (err) {
               console.log('ERROR: failed to send request: ', err);
               return;
